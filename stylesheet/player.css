@@ -1,0 +1,112 @@
+/* Css required */
+
+body 
+{
+    min-height: 900px;
+    background: #c9ced3;
+    font-size:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    
+}
+
+/* Heading 2 */
+h1
+{
+    margin: 7px;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(9, 9, 9);
+
+}
+
+/* Heading 3 */
+h2
+{
+    margin: 7px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(9, 9, 9);
+}
+
+/* div for sonngs images */
+.containImg 
+{
+    width: 400px;
+    height: 400px;
+    top: -30px;
+    left: 50px;
+    position: relative;
+}
+  
+.containImg img 
+{
+    height: 400px;
+    width: 400px;
+    box-shadow: 0.5px 5px 25px 4px #949494;;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* For prev, play. next buttons */
+.contentInline 
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;    
+    gap:30px;
+
+}
+
+/* For audio slider, song's current time and duration */
+.contentInlin 
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;    
+    gap:10px;
+
+}
+
+/* contain */
+.container
+{
+    height: 620px;
+    width: 500px;
+    text-align: center;
+    background: #e7e7e7;
+    box-shadow: 0.5px 5px 25px 4px #413b3b;;
+    border-radius: 15px;
+}
+
+/* For prev, play. next buttons designing*/
+.contentInline .btn 
+{
+    border: none;
+    outline: none;
+    width :15% ;
+    height :15%;
+    border-radius: 20px;
+    background-color: rgb(227, 232, 232);
+}
+
+/* Slider */
+#audioSlider 
+{
+    width: 350px;
+    height: 40px;
+    border: none;
+}
+  
+  
+  
+  
+
+
+  

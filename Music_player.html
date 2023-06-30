@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="stylesheet/player.css">
+        <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+        <title>AdeleMP</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="containImg">
+                <img id="imagee" src="" alt = "Mp3 Image">
+            </div>
+            <h1 id="NameS"></h2>
+            <h2 id="singer"></h3>
+            <div class="contentInlin">
+                <div class="progress-bar">
+                    <div id="progress" class="progress">
+                        <input type="range" id="audioSlider" min="0" max="100" step="0.5"  >
+                    </div>
+                </div>
+                <span id="currentTime">0:00</span>
+                /
+                <span id="duration">4:52</span>
+            </div>   
+            <div class="contentInline">
+                <audio id="song"></audio>
+                <button id="prev" class="btn" onclick="songPrev()"><img src="images/prev.png" /></button>
+                <button id="play" class="btn" onclick="playSong()"><img id="playid" src="https://img.icons8.com/?size=1x&id=114448&format=png"  /></button>
+                <button id="next" class="btn" onclick="songNext()"><img src="images/next.png" /></button>
+            </div>
+        </div>
+        <script src="JavaScript/player.js"></script>
+    </body>
+</html>
+
+
+<!--
+
+-->
