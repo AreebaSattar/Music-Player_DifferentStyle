@@ -10,7 +10,7 @@ AdeleMP is a simple music player built using HTML, CSS, and JavaScript. Enjoy Ad
 
 ## Usage 🚀
 
-1. Open `index.html` in a web browser.
+1. Open `music_player.html` in a web browser.
 2. Click play to start the current song.
 3. Use next/prev buttons to navigate tracks.
 4. Drag the progress bar to jump in the song.
