@@ -38,7 +38,7 @@ var songs =
     {
         'name': ' When We Were Young',
         'singer': 'Adele',
-        'image': 'images/young.png',
+        'image': 'images/young.PNG',
         'path': 'mp3/young.mp3'
     }
 ]
